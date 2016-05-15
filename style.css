@@ -1,0 +1,35 @@
+body{
+	background-color: black;
+}
+#play{
+	
+}
+#invaderFleet{
+	position: absolute;
+	left: 50px;
+	width: 550px; /*Since each space invader has a width of 50px making this have a width of 550px will perfectly fit 11 in a line*/
+	display: none; /*Fleet not shown on landing will appear after button play is clicked*/
+}
+.invader{
+	background-image: url("https://c1.staticflickr.com/3/2076/2527259678_cd753771e6_o.gif");
+	background-size: cover; /*This scales the div's background image to the div size*/
+	width: 50px;
+	height: 50px;
+	display: inline-block; /*Makes sure all invader appears on one line instead of one under the other*/
+}
+#spaceShip{
+	width: 50px;
+	height: 10px;
+	background-color: white;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	display: none;
+}
+#missile{
+	width: 10px;
+	height: 30px;
+	background-color: white;
+	position: fixed;
+	bottom: 0;
+}
